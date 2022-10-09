@@ -21,6 +21,11 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 li {
     display: block;
 }

@@ -14,11 +14,19 @@ h1, h2, h3, h4, h5, h6, hr, p, figure {
     border-width: 0;
     opacity: 1;
 }
+html,body{
+    overflow-x: hidden;
+}
 
 ul {
     display: block;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+
 }
 
 li {

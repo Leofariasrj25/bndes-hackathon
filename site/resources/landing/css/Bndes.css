@@ -657,6 +657,17 @@
   width: fit-content;
 }
 
+.highlights43.layout1 {
+  position: absolute;
+  top: 80px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 80px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .hero_title12 {
   font: 700 36px/1.33 "Sen", Helvetica, Arial, serif;
   color: #232536;
@@ -868,6 +879,7 @@
   min-width: 0px;
   width: -moz-fit-content;
   width: fit-content;
+  white-space: nowrap;
 }
 
 .block18 {
@@ -1231,12 +1243,8 @@
 .hero_title12.layout3 {
   position: absolute;
   top: 1660px;
-  height: -moz-min-content;
-  height: min-content;
   left: 560px;
-  min-width: 0px;
-  width: -moz-fit-content;
-  width: fit-content;
+  white-space: nowrap;
 }
 
 .image8 {
@@ -1288,6 +1296,7 @@
   min-width: 1280px;
 }
 
+
 .highlights43.layout1 {
   position: absolute;
   top: 1122px;
@@ -1317,10 +1326,20 @@
 
 .highlights44.layout {
   position: absolute;
-  top: 1120px;
+  top: 75px;
   height: -moz-min-content;
   height: min-content;
-  left: 160px;
+  left: 80px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.highlights44.layout1 {
+  position: absolute;
+  top: 75px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 736px;
   min-width: 0px;
   width: -moz-fit-content;
   width: fit-content;

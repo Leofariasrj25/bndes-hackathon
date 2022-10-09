@@ -18,7 +18,7 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 
 
 #### ✨ &nbsp; Alguns dos benefícios que a Yunus vai gerar:
-<img align="right" src="https://user-images.githubusercontent.com/79846426/194758309-25dd3529-3c5d-41fb-898f-f532682a15f8.jpg" height=400px width=250px>
+<img align="right" src="https://user-images.githubusercontent.com/79846426/194758309-25dd3529-3c5d-41fb-898f-f532682a15f8.jpg" height=600px width=450px>
 <br>
 
 

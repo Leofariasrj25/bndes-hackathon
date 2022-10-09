@@ -1,0 +1,474 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.root {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.root.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 4233px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  background-color: #232536;
+}
+
+.block.layout {
+  position: absolute;
+  top: 2424px;
+  height: 560px;
+  left: 0px;
+  width: 1440px;
+  min-width: 1440px;
+}
+
+.highlights {
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.69;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.block1.layout {
+  position: absolute;
+  top: 144px;
+  height: 256px;
+  left: 80px;
+  width: 1280px;
+  min-width: 1280px;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #8fd2c8;
+  cursor: pointer;
+}
+
+.block2.layout {
+  position: absolute;
+  top: 136px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 535px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 18px/1.33 "Sen", Helvetica, Arial, serif;
+  color: #232536;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.highlights1.layout {
+  position: relative;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px 45.5px;
+}
+
+.hero_title {
+  display: flex;
+  align-items: center;
+  font: 700 36px/1.33 "Sen", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -2px;
+  width: 100%;
+  height: 100%;
+}
+
+.highlights2 {
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+}
+
+.highlights2.layout {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1255px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout1 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1131px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights3 {
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.highlights2.layout2 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 777px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout3 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 915px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout4 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 714px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.medium_title {
+  display: flex;
+  align-items: center;
+  font: 700 25px/0.96 "Sen", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.highlights21 {
+  display: flex;
+  justify-content: flex-end;
+  font: 400 16px/1.25 "Inter", Helvetica, Arial, serif;
+  color: #005782;
+  text-align: right;
+  letter-spacing: 3px;
+}
+
+.highlights21.layout {
+  position: absolute;
+  top: 2024px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 0px;
+  right: 0px;
+  width: 17.08%;
+  margin: 0px 51.11% 0px 31.81%;
+}
+
+.highlights31 {
+  display: flex;
+  justify-content: flex-end;
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: #6d6e75;
+  text-align: right;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.hero_title1 {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 36px/1.33 "Sen", Helvetica, Arial, serif;
+  color: #232536;
+  text-align: right;
+  letter-spacing: -2px;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center top;
+  object-position: center top;
+}
+
+.image.layout {
+  position: absolute;
+  top: 1958px;
+  left: 736px;
+  width: 490px;
+  min-width: 490px;
+}
+
+.highlights22 {
+  font: 400 16px/1.25 "Inter", Helvetica, Arial, serif;
+  color: #005782;
+  letter-spacing: 3px;
+  width: 100%;
+  height: 100%;
+}
+
+.highlights32 {
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: #6d6e75;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.hero_title11 {
+  font: 700 36px/1.33 "Sen", Helvetica, Arial, serif;
+  color: #232536;
+  letter-spacing: -2px;
+  width: 100%;
+  height: 100%;
+}
+
+.image.layout1 {
+  position: absolute;
+  top: 1587px;
+  left: 80px;
+  width: 490px;
+  min-width: 490px;
+}
+
+.highlights21.layout1 {
+  position: absolute;
+  top: 1260px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 0px;
+  right: 0px;
+  width: 11.74%;
+  margin: 0px 51.11% 0px 37.15%;
+}
+
+.image.layout2 {
+  position: absolute;
+  top: 1205px;
+  left: 736px;
+  width: 490px;
+  min-width: 490px;
+}
+
+.image.layout3 {
+  position: absolute;
+  top: 823px;
+  left: 80px;
+  width: 490px;
+  min-width: 490px;
+}
+
+.block3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block3.layout {
+  position: absolute;
+  top: 663px;
+  height: 96px;
+  left: 80px;
+  width: 1282px;
+  min-width: 1282px;
+}
+
+.line {
+  background-color: #6d6e76;
+  opacity: 0.31;
+}
+
+.line.layout {
+  position: absolute;
+  top: 96px;
+  height: 1px;
+  left: 0px;
+  width: 1282px;
+}
+
+.hero_title2 {
+  font: 700 48px/1.33 "Sen", Helvetica, Arial, serif;
+  color: #232536;
+  letter-spacing: -2px;
+}
+
+.hero_title2.layout {
+  position: relative;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.block4 {
+  display: flex;
+  flex-direction: column;
+  background-color: #8fd2c8;
+}
+
+.block4.layout {
+  position: absolute;
+  top: 80px;
+  height: 519px;
+  left: 0px;
+  width: 1440px;
+  min-width: 1440px;
+}
+
+.image1 {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center top;
+  object-position: center top;
+}
+
+.image1.layout {
+  position: absolute;
+  top: 80px;
+  left: 845px;
+  width: 515px;
+  min-width: 515px;
+}
+
+.highlights4 {
+  font: 500 16px/1.25 "Inter", Helvetica, Arial, serif;
+  color: #232536;
+  letter-spacing: 2.8px;
+}
+
+.highlights4.layout {
+  position: absolute;
+  top: 134px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 80px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.block5 {
+  display: flex;
+  flex-direction: column;
+  background-color: #232536;
+}
+
+.block5.layout {
+  position: absolute;
+  top: 0px;
+  height: 80px;
+  left: 0px;
+  width: 1440px;
+  min-width: 1440px;
+}
+
+.block6 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  cursor: pointer;
+}
+
+.block6.layout {
+  position: absolute;
+  top: 12px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1151px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout5 {
+  position: absolute;
+  top: 26px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1011px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout6 {
+  position: absolute;
+  top: 26px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 636px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout7 {
+  position: absolute;
+  top: 26px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 566px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.block7 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block7.layout {
+  position: absolute;
+  overflow: hidden;
+  top: 25px;
+  height: 28px;
+  left: 83px;
+  width: 116px;
+  min-width: 116px;
+}

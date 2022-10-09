@@ -1,0 +1,489 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.root.layout {
+  position: relative;
+  min-height: 1598px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.block.layout {
+  position: relative;
+  overflow: hidden;
+  height: 1598px;
+  width: 1440px;
+  min-width: 1440px;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #232536;
+}
+
+.block1.layout {
+  position: absolute;
+  top: 1038px;
+  height: 560px;
+  left: 0px;
+  width: 1440px;
+  min-width: 1440px;
+}
+
+.highlights {
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.69;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.block2.layout {
+  position: absolute;
+  top: 144px;
+  height: 256px;
+  left: 80px;
+  width: 1280px;
+  min-width: 1280px;
+}
+
+.block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #8fd2c8;
+  cursor: pointer;
+}
+
+.block3.layout {
+  position: absolute;
+  top: 136px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 535px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 18px/1.33 "Sen", Helvetica, Arial, serif;
+  color: #232536;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.highlights1.layout {
+  position: relative;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px 45.5px;
+}
+
+.hero_title {
+  display: flex;
+  align-items: center;
+  font: 700 36px/1.33 "Sen", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: -2px;
+  width: 100%;
+  height: 100%;
+}
+
+.highlights2 {
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+}
+
+.highlights2.layout {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1255px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout1 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1131px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights3 {
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.highlights2.layout2 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 777px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout3 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 915px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout4 {
+  position: absolute;
+  top: 58px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 714px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.medium_title {
+  display: flex;
+  align-items: center;
+  font: 700 25px/0.96 "Sen", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.contain_block {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffd050;
+}
+
+.contain_block.layout {
+  position: absolute;
+  top: 866px;
+  height: 64px;
+  left: 336px;
+  width: 768px;
+  min-width: 768px;
+}
+
+.medium_title1 {
+  display: flex;
+  align-items: center;
+  font: 700 24px/1.33 "Sen", Helvetica, Arial, serif;
+  color: #232536;
+  letter-spacing: 0px;
+}
+
+.medium_title1.layout {
+  position: relative;
+  flex-grow: 1;
+  width: 90px;
+  min-width: 90px;
+  margin: 16px auto;
+}
+
+.block5 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(109, 110, 118, 0.498);
+  border-radius: 2px 2px 2px 2px;
+}
+
+.block5.layout {
+  position: absolute;
+  top: 430px;
+  height: 76px;
+  left: 336px;
+  width: 768px;
+  min-width: 768px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.group.layout {
+  position: relative;
+  height: 28px;
+  width: 720px;
+  min-width: 720px;
+  margin: 24px 0px 0px 24px;
+}
+
+.highlights21 {
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: #232536;
+  letter-spacing: 0px;
+}
+
+.highlights21.layout {
+  position: relative;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.block5.layout1 {
+  position: absolute;
+  top: 522px;
+  height: 76px;
+  left: 336px;
+  width: 768px;
+  min-width: 768px;
+}
+
+.block5.layout2 {
+  position: absolute;
+  top: 614px;
+  height: 76px;
+  left: 336px;
+  width: 768px;
+  min-width: 768px;
+}
+
+.block6 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(109, 110, 118, 0.498);
+  border-radius: 2px 2px 2px 2px;
+}
+
+.block6.layout {
+  position: absolute;
+  top: 706px;
+  height: 144px;
+  left: 336px;
+  width: 768px;
+  min-width: 768px;
+}
+
+.group.layout1 {
+  position: relative;
+  height: 96px;
+  width: 720px;
+  min-width: 720px;
+  margin: 24px 0px 0px 24px;
+}
+
+.highlights31 {
+  display: flex;
+  justify-content: center;
+  font: 900 16px/1.25 "Inter", Helvetica, Arial, serif;
+  color: #232536;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.highlights31.layout {
+  position: absolute;
+  top: 208px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 0px;
+  right: 0px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.hero_title1 {
+  display: flex;
+  justify-content: center;
+  font: 700 48px/1.33 "Sen", Helvetica, Arial, serif;
+  color: #232536;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+.hero_title1.layout {
+  position: absolute;
+  top: 240px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 0px;
+  right: 0px;
+  width: 35.21%;
+  margin: 0px auto;
+}
+
+.highlights4 {
+  display: flex;
+  justify-content: center;
+  font: 400 16px/1.75 "Inter", Helvetica, Arial, serif;
+  color: #6d6e75;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.highlights4.layout {
+  position: absolute;
+  top: 328px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 0px;
+  right: 0px;
+  width: 53.33%;
+  margin: 0px auto;
+}
+
+.block7 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.block7.layout {
+  position: absolute;
+  top: 12px;
+  height: 56px;
+  left: 1151px;
+  width: 199px;
+  min-width: 199px;
+}
+
+.highlights2.layout5 {
+  position: absolute;
+  top: 26px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1011px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout6 {
+  position: absolute;
+  top: 26px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 636px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights2.layout7 {
+  position: absolute;
+  top: 26px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 566px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.block8 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block8.layout {
+  position: absolute;
+  overflow: hidden;
+  top: 25px;
+  height: 28px;
+  left: 83px;
+  width: 116px;
+  min-width: 116px;
+}
+
+.block9 {
+  display: flex;
+  flex-direction: column;
+  background-color: #232536;
+}
+
+.block9.layout {
+  position: absolute;
+  top: 0px;
+  height: 80px;
+  left: 0px;
+  width: 1440px;
+  min-width: 1440px;
+}
+
+.block10 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  cursor: pointer;
+}
+
+.block10.layout {
+  position: absolute;
+  top: 12px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1151px;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.highlights1.layout1 {
+  position: relative;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 16px 46px;
+}
+
+.highlights2.layout8 {
+  position: absolute;
+  top: 26px;
+  height: -moz-min-content;
+  height: min-content;
+  left: 566px;
+  width: 44px;
+  min-width: 44px;
+}

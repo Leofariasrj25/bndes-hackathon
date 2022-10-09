@@ -879,6 +879,7 @@
   min-width: 0px;
   width: -moz-fit-content;
   width: fit-content;
+  white-space: nowrap;
 }
 
 .block18 {
@@ -1243,7 +1244,7 @@
   position: absolute;
   top: 1660px;
   left: 560px;
-  min-width: 0px;
+  white-space: nowrap;
 }
 
 .image8 {

@@ -6,9 +6,11 @@
 }
 
 .root.layout {
+  min-height: 5996px;
+  width: 1440px;
+  display: block;
+  margin: auto;
   position: relative;
-  overflow: hidden;
-  min-height: 3200px;
 }
 
 .block {

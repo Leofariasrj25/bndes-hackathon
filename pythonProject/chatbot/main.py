@@ -20,12 +20,12 @@ def create_fields(id):
 # quando o comando /start é solicitado
 def start_command(update, context):
 	global data
-	update.message.reply_text("Olá! Fico muito feliz em ver que você quer investir no seu negócio. Se você deseja se cadastrar digite 'cadastro' para iniciar o processo (utilize dados fictícios para testar o bot 😊)")
+	update.message.reply_text("Oi! Eu sou a Maria. Fico muito feliz em ver que você quer investir no seu negócio. :-D Estou aqui para te ajudar. Se você desejar, digite \"cadastro\" para iniciar o processo. Lembrando que o pré-cadastro não é garantia de acesso nem liberação de crédito, tá? ;-)")
 	create_fields(get_id(update))
 
 # quando o comando /help é solicitado
 def help_command(update, context):
-	update.message.reply_text("Por enquanto eu sou só um protótipo e só cadastro as pessoas. Digite 'cadastro' para iniciar o processo de cadastro")
+	update.message.reply_text("Então, por enquanto sou só um protótipo, realizo apenas o pré-cadastro das pessoas. Digite 'cadastro' se deseja iniciar o processo.")
 
 # salva as respostas num arquivo
 def save_file(data, user_id):

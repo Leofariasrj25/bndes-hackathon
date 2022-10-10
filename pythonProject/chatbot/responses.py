@@ -18,51 +18,51 @@ def sample_responses(input_text, data):
 
 	if "cadastr" in user_message:
 		data['pergunta'] = 1
-		return "Vamos iniciar o seu cadastro. Qual é o seu nome?"
+		return "Perfeito! Vamos iniciar o seu cadastro! ^_^ Eu sou a Maria. E você, como se chama?"
 	elif data['pergunta'] == 1:
 		if has_numbers(user_message):
 			data['pergunta'] = 1
-			return "Numeros não sao permitidos! Tente novamente."
+			return "Nem eu que sou uma robô tenho números no meu nome. o__O Seu nome completo, como consta na identidade por favor."
 		else:
 			data.update({'nome':user_message})
 			data['pergunta'] += 1
-			return "Digite seu CNPJ (Sem pontos ou traços)"
+			return "Agora o CNPJ da empresa, mas sem pontos nem traços, por favor. :-)"
 	elif data['pergunta'] == 2:
 		if user_message.isdigit() is False:
 			data['pergunta'] = 2
-			return "Seu CNPJ deve conter apenas digitos! Tente novamente."
+			return "Somente os dígitos do seu CNPJ, por favor. Sem pontos nem traços."
 		else:
 			data.update({'CNPJ': user_message})
 			data['pergunta'] += 1
-			return "Qual estado(Sigla) você reside: Ex: RJ, CE, SC ..."
+			return "Vamos te conectar a uma instituição próxima de onde você está. Qual é a sigla do estado? Por exemplo: RJ, CE, DF…"
 	elif data['pergunta'] == 3:
-		if user_message in ("rj, sp, es, mg, pr, sc, rs, ms, go, ac, al, ap, am, ba, ce, df, ma, mt, pa, pb, pe, pi, rn, ro, rr ,se, to"):
+		if user_message in ("rj, sp, es, mg, pr, sc, rs, ms, go, ac, al, ap, am, ba, ce, df, ma, mt, pa, pb, pe, pi, rn, ro, rr, se, to"):
 			data.update({'estado': user_message})
 			data['pergunta'] += 1
-			return "Qual sua renda bruta mensal em reais? Ex: 1000"
+			return "É um lugar lindo! \*___\* Já estamos na metade! Qual é a sua renda mensal em reais? Por exemplo: 1000."
 		else:
 			data['pergunta'] == 3
-			return "Digite uma Sigla Válida"
+			return "Não reconheço esse estado. Não tem no Brasil. x__x Digite a sigla de um dos estados ou do Distrito Federal."
 	elif data['pergunta'] == 4:
 		if user_message.isdigit() is False:
 			data['pergunta'] = 4
-			return "Esse valor deve conter apenas digitos! Tente novamente."
+			return "Somente os dígitos, por favor. Sem cifras, sem centavos e sem vírgula. ;-)"
 		else:
 			data.update({'renda': user_message})
 			data['pergunta'] += 1
-			return "Quando é o valor do crédito que você procura em reais? ex: 4000"
+			return "Agora me conta… $___$ Qual valor em reais você procura? Por exemplo: 4000."
 	elif data['pergunta'] == 5:
 		if user_message.isdigit() is False:
 			data['pergunta'] = 5
-			return "Esse valor deve conter apenas digitos! Tente novamente."
+			return "Somente os dígitos, por favor. Sem cifras, sem centavos e sem vírgula. ;-)"
 		else:
 			data.update({'credito': user_message})
 			data['pergunta'] += 1
-			return "Houve indicação? Caso sim, Digite o id do(a) indicador(a), caso não, digite 'não'."
+			return "Está acabando! Você foi indicado por alguém? Caso sim, digite o código de identificação de quem te indicou. Se não for o caso, por favor, digite \"não\"."
 	elif data['pergunta'] == 6:
 			data.update({'indicador': user_message})
 			data['pergunta'] += 1
-			return "Possui MEI a mais de 6 meses?"
+			return "Para terminar! Você possui MEI a mais de seis meses? Responda com \"sim\" ou \"não\"."
 	elif data['pergunta'] == 7:
 		data['pergunta'] = -1
 		if user_message in ("sim", "s"):
@@ -70,6 +70,6 @@ def sample_responses(input_text, data):
 		else:
 			data.update({'maturidade': False})
 		print(data)
-		return "Obrigado Pelas Respostas!"
+		return "Prontinho! Já terminamos! Obrigada pelas respostas. Agora vamos conectar você à instituição que mais combina com o seu perfil. Aguarde o retorno deles em alguns dias, beleza? Abraços, vou ficando por aqui! :-D"
 	if user_message in ("oi", "ola", "olá"):
-		return "Olááá!"
+		return "Olááá! :-D"

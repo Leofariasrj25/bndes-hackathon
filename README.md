@@ -64,5 +64,5 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 <br>
 <br>
 
-<img align="center" src="https://user-images.githubusercontent.com/79846426/194789864-1692136b-d1e0-44a7-bcd6-16b5ef8f7902.png" height=800px width=600px>
+<img align="center" src="https://user-images.githubusercontent.com/79846426/194789864-1692136b-d1e0-44a7-bcd6-16b5ef8f7902.png">
 

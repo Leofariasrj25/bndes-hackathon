@@ -26,7 +26,6 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 
 - A grande diferença imprestimo para o microcrédito é que há um cuidado para que aquele dinheiro seja usado de maneira eficiente e haja uma real evolução do empreendedor no processo. Por este motivo a plataforma recompensará aqueles usuários que invistam parte do seu tempo para consumir o conteúdo didático disponibilizado promovendo um aumento no seu score.
 
-(https://user-images.githubusercontent.com/79846426/194789846-974aecf8-d521-4159-a862-4179e319e63e.png)
 
 <br>
 <br>

@@ -80,20 +80,21 @@ A inicialização do bot se dá da seguinte maneira:
    ```sh
    git clone git@github.com:Leofariasrj25/bndes-hackathon.git
    ```
-2. Entrar no ambiente virtual
+2. Exporte a sua api key do telegram [passo a passo](https://sendpulse.com/knowledge-base/chatbot/telegram/create-telegram-chatbot)
+   ```
+   export API_KEY=<your api key>
+   ```
+3. Entrar no ambiente virtual
    ```sh
    cd pythonProject/chatbot/venv
    ```
-3. Mudar a source
+4. Mudar a source
    ```sh
    source /bin/activate
    ```
-4. rodar a main.py
+5. rodar a main.py
    ```sh
    python3 ../main.py
-   ```
-<br>
-<br>
-
+   ``` 
 <img align="center" src="https://user-images.githubusercontent.com/79846426/194789864-1692136b-d1e0-44a7-bcd6-16b5ef8f7902.png">
 

@@ -1,3 +1,6 @@
+
+<img align="Center" src="https://user-images.githubusercontent.com/79846426/194790175-3266a52b-619c-4d47-9b92-aa3d867c5702.png" height=150px width=150px>
+
 ## YUNUS - Uma plataforma social de indicação de acesso ao microcrédito
 
 [YUNUS](https://dvargas1.github.io/index.html) É uma iniciativa para estimular o mercado de microcrédito através da indicação positiva de um novo microempreendedor. Estando presente em canais como web e aplicativos de comunicação, Yunus visa alcançar aqueles microempreendedores que hoje não são atingidos, seja por não conhecerem ou simplesmente por não se ter a possibilidade de atender presencialmente a toda a demanda.
@@ -62,6 +65,29 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 <br>
 <br>
 <br>
+<br>
+
+
+### Instalação
+
+A inicialização do bot se dá da seguinte maneira:
+
+1. Clone o repositório
+   ```sh
+   git clone git@github.com:Leofariasrj25/bndes-hackathon.git
+   ```
+2. Entrar no ambiente virtual
+   ```sh
+   cd pythonProject/chatbot/venv
+   ```
+3. Mudar a source
+   ```sh
+   source /bin/activate
+   ```
+4. rodar a main.py
+   ```sh
+   python3 ../main.py
+   ```
 
 <img align="center" src="https://user-images.githubusercontent.com/79846426/194789864-1692136b-d1e0-44a7-bcd6-16b5ef8f7902.png">
 

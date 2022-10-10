@@ -15,7 +15,7 @@ def get_id(update):
 # inicializa dicionario com as categorias das respostas
 def create_fields(id):
 	global data
-	data[id] = {'pergunta' : 0, 'nome': '', 'CNPJ': '', 'estado' : '', 'renda' : '', 'credito' : '', 'maturidade' : False}
+	data[id] = {'pergunta' : 0, 'nome': '', 'CNPJ': '', 'estado' : '', 'renda' : '', 'credito' : '', 'indicador' : '', 'maturidade' : False}
 
 # quando o comando /start é solicitado
 def start_command(update, context):
@@ -23,9 +23,16 @@ def start_command(update, context):
 	update.message.reply_text("Olá! Fico muito feliz em ver que você quer investir no seu negócio. Se você deseja se cadastrar digite 'cadastro' para iniciar o processo (utilize dados fictícios para testar o bot 😊)")
 	create_fields(get_id(update))
 
-# quando o comando /hellp é solicitado
+# quando o comando /help é solicitado
 def help_command(update, context):
 	update.message.reply_text("Por enquanto eu sou só um protótipo e só cadastro as pessoas. Digite 'cadastro' para iniciar o processo de cadastro")
+
+# salva as respostas num arquivo
+def save_file(data, user_id):
+	user_file = open(str(user_id), 'w')
+	user_file.write(json.dumps(data[user_id]))
+	user_file.flush()
+	user_file.close()
 
 # Função para lidar com as diferentes mensagens recebidas
 def handle_message(update, context):
@@ -36,6 +43,7 @@ def handle_message(update, context):
 	print(data[get_id(update)]['pergunta'])
 	if data[get_id(update)]['pergunta'] == -1:
 		update.message.reply_text(json.dumps(data[get_id(update)]))
+		save_file(data, get_id(update))
 
 # printa o erro no terminal e seu contexto no terminal
 def error(update, context):

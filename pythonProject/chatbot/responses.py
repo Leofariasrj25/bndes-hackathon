@@ -58,8 +58,12 @@ def sample_responses(input_text, data):
 		else:
 			data.update({'credito': user_message})
 			data['pergunta'] += 1
-			return "Possui MEI a mais de 6 meses?"
+			return "Houve indicação? Caso sim, Digite o id do(a) indicador(a), caso não, digite 'não'."
 	elif data['pergunta'] == 6:
+			data.update({'indicador': user_message})
+			data['pergunta'] += 1
+			return "Possui MEI a mais de 6 meses?"
+	elif data['pergunta'] == 7:
 		data['pergunta'] = -1
 		if user_message in ("sim", "s"):
 			data.update({'maturidade': True})

@@ -1,33 +1,37 @@
 
-<img align="Center" src="https://user-images.githubusercontent.com/79846426/194790175-3266a52b-619c-4d47-9b92-aa3d867c5702.png" height=150px width=150px>
+<img align="Center" src="https://i.imgur.com/ghznusP.png" height=150px width=150px>
 
-## YUNUS - Uma plataforma social de indicação de acesso ao microcrédito
+## Yunus - Uma plataforma social de indicação de acesso ao microcrédito
 
-[YUNUS](https://dvargas1.github.io/index.html) É uma iniciativa para estimular o mercado de microcrédito através da indicação positiva de um novo microempreendedor. Estando presente em canais como web e aplicativos de comunicação, Yunus visa alcançar aqueles microempreendedores que hoje não são atingidos, seja por não conhecerem ou simplesmente por não se ter a possibilidade de atender presencialmente a toda a demanda.
-Essa novo modelo não tem como finalidade a substituição do agente de crédito e sim a facilitação dos serviços por ele prestado e também da diminuição de custo em caso de visitas mal sucedidas.
+O [Yunus](https://dvargas1.github.io/index.html) é uma iniciativa para estimular o mercado de microcrédito através da indicação positiva de um novo microempreendedor. Presente em canais como web e aplicativos de mensagem, o Yunus visa alcançar aqueles microempreendedores que hoje não são atingidos, seja por desconhecerem o funcionamento do microcrédito ou simplesmente por não serem bancarizadas.
+Essa novo modelo não tem como finalidade a substituição dos agentes de crédito e sim a facilitação dos serviços por eles prestados, e também a redução do gasto de tempo e dinheiro (em visitas infrutíferas, por exemplo).
 
 
-#### 🌟 &nbsp; Yunus é uma plataforma onde você encontrará..
+#### 🌟 &nbsp; Yunus é uma plataforma onde você encontrará…
 
-- Uma plataforma pensada para receber todos os usuários idependentemente de sua familiaridade com a tecnologia.
-- Um perfil de usuário no qual ele poderá ver seu score como indicador e ter acesso à informações sobre seus créditos.
-- Conteúdos direcionados a capacitação e aprimoramento de suas competencias para gerir e investir os seus recursos. 
+- recepção para todos os usuários, independentemente de sua familiaridade com a tecnologia;
+- um perfil de usuário com sua pontuação de indicações, currículo de educação financeira e informações sobre seus créditos e
+- conteúdo direcionado à capacitação e ao aprimoramento de sua maturidade financeira para gerir e investir os seus recursos.
 
 <br>
 <br>
 
-#### ✨ &nbsp; Alguns dos benefícios que a Yunus vai gerar:
+#### ✨ &nbsp; Alguns dos benefícios que a Yunus gera:
 
 <img align="right" src="https://user-images.githubusercontent.com/79846426/194758309-25dd3529-3c5d-41fb-898f-f532682a15f8.jpg" height=600px width=350px>
 
 <br>
 
 
-- Além de aumentar o seu score de indicador que o dará mais benefícios na hora de tomar novos microcréditos, a partir de toda indicação bem sucedida o usuário vai ganhar uma valor comissionado. Isso estimula o marketing boca a boca e fazem com que todas as partes saiam ganhando. O indicador ganha pois é uma renda extra e os credores ganham com uma maior amplitude de possiveis clientes em sua base de dados.
+- As indicações de bons pagadores podem ser recompensadas em dinheiro, já que diminuem o custo de prospecção das OSCIPs.
+- Membros que indicam bons pagadores aumentam sua pontuação e podem conseguir redução de juros ou aumento de prazo de pagamento em novos empréstimos.
+- Isso estimula o marketing boca a boca e faz com que todas as partes saiam ganhando. O indicador ganha pois é uma renda extra e os credores ganham com uma maior amplitude de possiveis clientes em sua base de dados.
 
-- Com a facilitação do primeiro contato e coleta antecipada de dados, vai ser possível a otimização dos recursos, prospecção de novos clientes e a tomada de decisão na hora encontrar esse cliente. Tudo isso feito remotamente e usando canais populares como aplicativos de comunicação.
+- Com a facilitação do primeiro contato e coleta antecipada de dados, é possível a otimização dos recursos, prospecção de novos clientes e a tomada de decisão na hora encontrar esse cliente. Tudo isso feito remotamente e usando canais populares como aplicativos de mensagens.
 
-- A grande diferença imprestimo para o microcrédito é que há um cuidado para que aquele dinheiro seja usado de maneira eficiente e haja uma real evolução do empreendedor no processo. Por este motivo a plataforma recompensará aqueles usuários que invistam parte do seu tempo para consumir o conteúdo didático disponibilizado promovendo um aumento no seu score.
+
+
+A grande diferença entre empréstimo para o microcrédito é que neste há um cuidado para que aquele dinheiro seja usado de maneira eficiente e haja uma real evolução do empreendedor no processo. Por este motivo a plataforma recompensará aqueles usuários que invistam parte do seu tempo para consumir o conteúdo didático disponibilizado promovendo um aumento na sua pontuação.
 
 
 <br>
@@ -36,17 +40,17 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 <br>
 <br>
 
-#### 🌟 &nbsp; [Maria](https://t.me/MariaYunusBot), nosso bot coletor de informações
+#### 🌟 &nbsp; [Maria](https://t.me/MariaYunusBot), nossa robô coletor de informações.
 <br>
 <br>
 
 <img align="left" src="https://user-images.githubusercontent.com/79846426/194787596-cfa0c3a3-fb9f-470f-bf5f-d1de26ad7e8a.gif" height=400px width=200px>
 
-&nbsp; &nbsp;  Esse bot terá a função de fazer o primeiro contato com o possível cliente.
+&nbsp; &nbsp;  Esse robô terá a função de fazer o primeiro contato com o possível cliente.
 
 <br>
 
-&nbsp; &nbsp;  Ele coletará as informações preliminares suficientes para um pré-cadastro de informações.
+&nbsp; &nbsp;  Coletará as informações preliminares suficientes para um pré-cadastro de informações.
 
 <br>
 
@@ -54,7 +58,7 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 
 <br>
 
-&nbsp; &nbsp;  Maria está ativa nesse momento, que tal bater um papo com ela agora?!  
+&nbsp; &nbsp;  Maria está ativa nesse momento, que tal bater um papo com ela agora?  
 
 <br>
 

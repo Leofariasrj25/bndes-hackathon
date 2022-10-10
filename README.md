@@ -25,6 +25,9 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 - Com a facilitação do primeiro contato e coleta antecipada de dados, vai ser possível a otimização dos recursos, prospecção de novos clientes e a tomada de decisão na hora encontrar esse cliente. Tudo isso feito remotamente e usando canais populares como aplicativos de comunicação.
 
 - A grande diferença imprestimo para o microcrédito é que há um cuidado para que aquele dinheiro seja usado de maneira eficiente e haja uma real evolução do empreendedor no processo. Por este motivo a plataforma recompensará aqueles usuários que invistam parte do seu tempo para consumir o conteúdo didático disponibilizado promovendo um aumento no seu score.
+
+(https://user-images.githubusercontent.com/79846426/194789846-974aecf8-d521-4159-a862-4179e319e63e.png)
+
 <br>
 <br>
 <br>
@@ -54,3 +57,12 @@ Essa novo modelo não tem como finalidade a substituição do agente de crédito
 <br>
 
 &nbsp; &nbsp; ** No exemplo do gif colocamos para o bot enviar o que seria armazenado em um desses arquivos **
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img align="center" src="https://user-images.githubusercontent.com/79846426/194789864-1692136b-d1e0-44a7-bcd6-16b5ef8f7902.png" height=800px width=600px>
+

@@ -92,6 +92,8 @@ A inicialização do bot se dá da seguinte maneira:
    ```sh
    python3 ../main.py
    ```
+<br>
+<br>
 
 <img align="center" src="https://user-images.githubusercontent.com/79846426/194789864-1692136b-d1e0-44a7-bcd6-16b5ef8f7902.png">
 
